@@ -1,10 +1,25 @@
 <resources>
     <string name="app_name">Bluetooth TicTacToe</string>
+
+    <!--First layout-->
     <string name="DisplayMessage">TIC TAC TOE \ngame</string>
-    <string name="NameHintMessage">Enter the name of player 1</string>
-    <string name="HintName1">Player\'s Name</string>
-    <string name="HintName2">Opponent\'s Name</string>
+    <string name="NameHintMessage1">Enter the name of player 1</string>
+    <string name="NameHintMessage2">Enter the name of player 2</string>
+    <string name="Player2Name">SINGLE PLAYER</string>
     <string name="StartButtonName">START GAME</string>
     <string name="SettingsButtonName">CONNECT PLAYER</string>
+    <string name="Option1">Play as Multiplayer</string>
+    <string name="Option2">Play as Single player</string>
+
+    <!--Game Layout-->
+    <string name="HintName1">Player\'s Name</string>
+    <string name="HintName2">Opponent\'s Name</string>
+
+    <!--Result Layout-->
+    <string name="ResultText">Results</string>
+    <string name="ResultMessage">START AGAIN</string>
+
+    <!--Result Layout-->
+    <string name="SearchDevices">Search for devices</string>
 
 </resources>
