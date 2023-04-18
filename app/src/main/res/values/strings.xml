@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Bluetooth TicTacToe</string>
+    <string name="DisplayMessage">TIC TAC TOE \ngame</string>
+    <string name="NameHintMessage">Enter the name of player 1</string>
+    <string name="HintName1">Player\'s Name</string>
+    <string name="HintName2">Opponent\'s Name</string>
+    <string name="StartButtonName">START GAME</string>
+    <string name="SettingsButtonName">CONNECT PLAYER</string>
+
 </resources>

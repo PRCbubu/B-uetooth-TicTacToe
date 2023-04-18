@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/tictactoeimage"
+    tools:context=".AddPlayers">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_30sdp"
+        app:cardCornerRadius="@dimen/_30sdp"
+        app:cardElevation="@dimen/_15sdp">
+
+        <LinearLayout
+            android:id="@+id/DisplayCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/DisplayName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/DisplayMessage"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/Lavender"/>
+            <EditText
+                android:id="@+id/InputName"
+                android:layout_width="@dimen/_215sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/border2"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:padding="@dimen/_7sdp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:hint="@string/NameHintMessage"
+                android:textColor="@color/Lavender2"/>
+            <Button
+                android:id="@+id/StartButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/StartButtonName"
+                android:textSize="@dimen/_11sdp"
+                app:cornerRadius="@dimen/_20sdp"/>
+            <Button
+                android:id="@+id/SettingsButton"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="@string/SettingsButtonName"
+                android:textSize="@dimen/_11sdp"
+                app:cornerRadius="@dimen/_20sdp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

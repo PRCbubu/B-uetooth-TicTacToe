@@ -12,6 +12,14 @@
         android:theme="@style/Theme.BluetoothTicTacToe"
         tools:targetApi="31">
         <activity
+            android:name=".ReasultDialog"
+            android:exported="false" />
+        <activity
+            android:name=".AddPlayers"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
